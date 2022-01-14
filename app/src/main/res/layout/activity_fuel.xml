@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/bg"
+    tools:context=".Fuel">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:background="@color/bg_darker"
+            android:gravity="center"
+            android:text="@string/fuel_title"
+            android:textAlignment="center"
+            android:drawableStart="@drawable/ic_back_24"
+            android:textSize="22sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/text_light"/>
+
+        <RadioGroup
+            android:id="@+id/satha_chooser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/outside_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textSize="22sp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/fuel_outside_city"/>
+            <RadioButton
+                android:id="@+id/inside_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textSize="22sp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/deliver_inside_city"/>
+
+        </RadioGroup>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="@android:color/black"
+            android:alpha="0.4"
+            android:layout_marginBottom="16dp"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="@color/text_light"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/choose_pay_method"/>
+
+        <RadioGroup
+            android:id="@+id/pay_method_chooser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/cash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textSize="22sp"
+                android:text="@string/cash"/>
+            <RadioButton
+                android:id="@+id/electronic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textSize="22sp"
+                android:text="@string/electronic"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/confirm_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/confirm"
+            android:background="@drawable/buttons_bg"
+            android:textAllCaps="false"
+            android:padding="16dp"
+            android:textColor="@color/text_dark"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_sheet_bg"
+    android:orientation="vertical"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="70dp"
+    app:layout_behavior="@string/bottom_sheet_behavior">
+
+    <RelativeLayout
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="8dp"
+            android:padding="10dp"
+            android:background="@drawable/buttons_bg"
+            android:textAlignment="center"
+            android:text="@string/show_services"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_dark" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <TextView
+            android:id="@+id/move_between_cities_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            android:textSize="18sp"
+            android:textColor="@color/text_dark"
+            android:textStyle="bold"
+            android:text="@string/move_between_cities"
+            android:padding="16dp"/>
+
+        <View
+            android:id="@+id/divider1"
+            android:layout_below="@id/move_between_cities_btn"
+            android:layout_width="match_parent"
+            android:layout_alignStart="@id/move_between_cities_btn"
+            android:layout_marginEnd="100dp"
+            android:layout_height="0.2dp"
+            android:background="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/satha"
+            android:layout_below="@id/divider1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            android:textSize="18sp"
+            android:textColor="@color/text_dark"
+            android:textStyle="bold"
+            android:text="@string/satha"
+            android:padding="16dp"/>
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_below="@id/satha"
+            android:layout_width="match_parent"
+            android:layout_alignStart="@id/satha"
+            android:layout_marginEnd="100dp"
+            android:layout_height="0.2dp"
+            android:background="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/banshar"
+            android:layout_below="@id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            android:textSize="18sp"
+            android:textColor="@color/text_dark"
+            android:textStyle="bold"
+            android:text="@string/banshar"
+            android:padding="16dp"/>
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_below="@id/banshar"
+            android:layout_width="match_parent"
+            android:layout_alignStart="@id/banshar"
+            android:layout_marginEnd="100dp"
+            android:layout_height="0.2dp"
+            android:background="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/battery"
+            android:layout_below="@id/divider3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            android:textSize="18sp"
+            android:textColor="@color/text_dark"
+            android:textStyle="bold"
+            android:text="@string/battery_title"
+            android:padding="16dp"/>
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_below="@id/battery"
+            android:layout_width="match_parent"
+            android:layout_alignStart="@id/battery"
+            android:layout_marginEnd="100dp"
+            android:layout_height="0.2dp"
+            android:background="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/fuel"
+            android:layout_below="@id/divider4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="60dp"
+            android:textAlignment="viewStart"
+            android:textSize="18sp"
+            android:textColor="@color/text_dark"
+            android:textStyle="bold"
+            android:text="@string/fuel"
+            android:padding="16dp"/>
+        
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/bg"
+    tools:context=".MoneyRecharge">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:background="@color/bg_darker"
+            android:gravity="center"
+            android:text="@string/move_between_cities"
+            android:textAlignment="center"
+            android:drawableStart="@drawable/ic_back_24"
+            android:textSize="22sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/text_light"/>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/text_dark"
+            android:text="@string/choose_a_value"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp"
+            android:weightSum="3">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:padding="16dp"
+                android:layout_weight="1"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/buttons_bg_white"
+                android:textColor="@color/text_light"
+                android:text="@string/sar50"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:padding="16dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/buttons_bg_white"
+                android:textColor="@color/text_light"
+                android:text="@string/sar100"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:padding="16dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/buttons_bg_white"
+                android:textColor="@color/text_light"
+                android:text="@string/sar200"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="@color/text_dark"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/or_add_custom"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons_bg_white"
+            android:padding="10dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/text_light"
+            android:gravity="center"
+            android:text="********************SAR"/>
+
+
+        <Button
+            android:id="@+id/confirm_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/confirm"
+            android:background="@drawable/buttons_bg"
+            android:textAllCaps="false"
+            android:padding="16dp"
+            android:textColor="@color/text_dark"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

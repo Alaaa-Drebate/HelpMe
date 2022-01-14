@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="50dp"
+        android:background="@color/bg_darker"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="@string/phone_number"
+        android:textAlignment="center"
+        android:drawableStart="@drawable/ic_back_24"
+        android:textSize="22sp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="@color/text_light"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:text="@string/enter_phone_number"
+        android:layout_below="@id/title"
+        android:textSize="22sp"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/text_dark"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+    <TextView
+        android:id="@+id/body"
+        android:layout_below="@id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="60dp"
+        android:textSize="18sp"
+        android:layout_alignStart="@id/subtitle"
+        android:text="@string/you_must_register_to_take_benefit"
+        android:textColor="@color/text_dark" />
+
+    <RelativeLayout
+        android:id="@+id/phone_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/body"
+        android:layout_marginBottom="50dp">
+
+
+        <TextView
+            android:id="@+id/phone_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phone_number"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginStart="16dp"/>
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/phone_title"
+            android:hint="05xxxxxxxx"
+            android:textColor="@color/text_dark"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"/>
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone_layout"
+        android:layout_centerHorizontal="true"
+        android:text="@string/_continue"
+        android:background="@drawable/buttons_bg"
+        android:textAllCaps="false"
+        android:padding="16dp"
+        android:textColor="@color/text_dark"
+        android:layout_marginBottom="20dp"/>
+</RelativeLayout>

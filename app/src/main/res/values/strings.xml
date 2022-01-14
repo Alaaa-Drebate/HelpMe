@@ -1,0 +1,74 @@
+<resources>
+
+    <!--for configuration-->
+    <string name="nav_open" translatable="false">Open</string>
+    <string name="nav_close" translatable="false">Close</string>
+
+    <string name="app_name">HelpMe</string>
+    <string name="verification_code">Verification code</string>
+    <string name="resend_sms">Resend SMS</string>
+    <string name="check_code">Check code</string>
+    <string name="english">English</string>
+    <string name="arabic">عربي</string>
+    <string name="help_me">Give Me A Hand</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="you_must_register_to_take_benefit">You Must Register To Take Benefits From This App</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="move_between_cities">move between cities</string>
+    <string name="show_services">Services in our app</string>
+    <string name="_continue">Continue</string>
+    <string name="verification_code_msg">a code has been sent to (05xxxxxxxx)\nplease enter the verification code below</string>
+    <string name="satha">Sattha</string>
+    <string name="banshar">Banshar</string>
+    <string name="fuel">Fuel</string>
+    <string name="my_location">my location</string>
+    <string name="electronic_payment">Electronic Pay</string>
+    <string name="card_number">Card number</string>
+    <string name="expiry_date">Expiry date</string>
+    <string name="cvv">security code</string>
+    <string name="normalSatha">normal sattha , from 0.00 SAR</string>
+    <string name="hydrolicSatha">hydrolic satha, starts from 0.00SAR</string>
+    <string name="coveredSatha">covered satha, starts from 0.00SAR</string>
+    <string name="starting_city">from city</string>
+    <string name="choose_city">Choose city</string>
+    <string name="lifting_address">Lifting address</string>
+    <string name="choose_address">Choose address</string>
+    <string name="to_city">To city</string>
+    <string name="time_and_date">Time and date</string>
+    <string name="choose_pay_method">choose  a way to pay the order when the order is finished</string>
+    <string name="cash">Cash</string>
+    <string name="electronic">electronic pay</string>
+    <string name="confirm">Confirm</string>
+    <string name="replace_tire">Replace tire locally</string>
+    <string name="replace_at_station">Replace tire at station, from 0.00SAR</string>
+    <string name="fix_tire_at_location">Fix tire at location, from 0.00SAR</string>
+    <string name="fix_tire_at_station">Fix tire at station, from 0.00SAR</string>
+    <string name="fill_tire_with_air">Fill tire with air, from 0.00SAR</string>
+    <string name="lifting_location">Lifting from</string>
+    <string name="address">Address</string>
+    <string name="lifting_to">Lifting to</string>
+    <string name="satha_title">Sattha</string>
+    <string name="banshar_title">banshar</string>
+    <string name="battery_title">Battery</string>
+    <string name="battery_subscription">Battery subscription, from 0.00SAR</string>
+    <string name="battery_replacement">Battery replacement, from 0.00SAR</string>
+    <string name="fuel_title">Fuel</string>
+    <string name="fuel_outside_city">Deliver fuel outside the city, from 0.00SAR</string>
+    <string name="deliver_inside_city">Deliver fuel inside city, from 0.00SAR</string>
+    <string name="my_orders">My orders</string>
+    <string name="balance">Balance</string>
+    <string name="messages">Messages</string>
+    <string name="customer_services">Customer services</string>
+    <string name="no_orders_yet">No orders</string>
+    <string name="my_balance">balance</string>
+    <string name="pay">Pay</string>
+    <string name="choose_a_value">choose a value</string>
+    <string name="sar50">50 SAR</string>
+    <string name="sar100">100 SAR</string>
+    <string name="sar200">200 SAR</string>
+    <string name="or_add_custom">Or add custom value</string>
+    <string name="soon">Soon...</string>
+    <string name="no_messages">" No messages yet"</string>
+
+
+</resources>

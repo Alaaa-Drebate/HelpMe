@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_orders"
+        android:title="@string/my_orders"/>
+
+    <item
+        android:id="@+id/nav_balance"
+        android:title="@string/balance"/>
+
+    <item
+        android:id="@+id/nav_messages"
+        android:title="@string/messages"/>
+
+    <item
+        android:id="@+id/nav_customer_services"
+        android:title="@string/customer_services"/>
+
+
+</menu>
